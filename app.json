@@ -1,0 +1,29 @@
+{
+    "name": "TTS BOT",
+    "description": "A PHP Telegram Bot To make Your Text into Voice.",
+    "keywords": [
+        "TTS",
+        "Telegram",
+        "Bot"
+    ],
+    "logo": "https://telegra.ph/file/c580e90a6484cdb3ddf9e.jpg",
+    "repository": "https://github.com/CyberBoyAyush/TTS-BOT",
+    "success_url": "/bot.php",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },"BOT_USER_NAME": {
+            "description": "your Telegram Bot Username"
+        },
+        "START_MESSAGE": {
+            "description": "A start message for your bot."
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
